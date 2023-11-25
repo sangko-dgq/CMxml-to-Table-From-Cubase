@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChordsMarkerXML to HTML For Cubase </title>
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 style="margin-left: 2%;margin-top: 1%;">ChordsMarkerXML to HTML For Cubase </h1>
+    <div id="file-container">
+      <label for="xmlFileInput">XML File:</label>
+      <input type="file" id="xmlFileInput" onchange="handleFile()" accept=".xml">
+    </div>
+
+    <div>
+      <div id="bpm-container"></div>
+      <div id="time-signature-container"></div>
+    </div>
+  </header>
+
+  <main>
+    <table id="tracklist-table"></table>
+  </main>
+
+  <script src="main.js"> </script>
+
+
+</body>
+
+</html>
